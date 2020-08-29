@@ -35,7 +35,7 @@ public class EmployeeController {
     EmployeeRepository employeeRepository;
 
     @GetMapping(value = "employees")
-    public List<Employee> getAllEmployees(@RequestParam String param) {
+    public List<Employee> getAllEmployees() {
         return employeeRepository.findAll();
     }
 
