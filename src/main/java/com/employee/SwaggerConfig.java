@@ -20,7 +20,7 @@ public class SwaggerConfig {
     public static final Contact DEFAULT_CONTACT = new Contact("Rohan Dongre", "", "dongrrohan421@gmail.com");
     public static final ApiInfo DEFAULT_API_INFO = new ApiInfo("Employee Management Application Api Documentation", "",
             "1.0", "urn:tos", DEFAULT_CONTACT, "Apache 2.0", "http://www.apache.org/licenses/LICENSE-2.0",
-            new ArrayList());
+            new ArrayList<>());
 
     private static final Set<String> DEFAULT_PRODUCES_AND_CONSUMES = new HashSet<>(Arrays.asList("application/json"));
 
