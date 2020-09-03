@@ -1,0 +1,2 @@
+insert into employees (email_address, first_name, last_name) values ('ad@gmail.com', 'Anuja', 'Dongre');
+insert into employees (email_address, first_name, last_name) values ('rd@gmail.com', 'Rohan', 'Dongre');
